@@ -13,10 +13,12 @@ public class CollectionScript : MonoBehaviour
     public bool isOnGround = true;
     public float jumpForce = 0.5f;
     public float gravityModifier = 1.0f;
-    public float moveSpeed = 5.0f;
+    public float moveSpeed = 10.0f;
 
     private bool canpickup = false;
     private bool hasitem = false;
+
+    private Vector3 handsOffset;
 
     private Rigidbody playerRb;
     // Start is called before the first frame update
@@ -24,6 +26,7 @@ public class CollectionScript : MonoBehaviour
     {
         playerRb = GetComponent<Rigidbody>();
         Physics.gravity *= gravityModifier;
+        handsOffset = new Vector3(transform.localScale.x, 0, transform.localScale.y);
     }
 
     // Update is called once per frame
@@ -76,7 +79,7 @@ public class CollectionScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 target.GetComponent<Rigidbody>().isKinematic = true;
-                target.transform.position = transform.position;
+                target.transform.position = transform.position + handsOffset;
                 target.transform.parent = transform;
                 hasitem = true;
             }
@@ -103,4 +106,6 @@ public class CollectionScript : MonoBehaviour
     {
         canpickup = false;
     }
+
+    
 }
