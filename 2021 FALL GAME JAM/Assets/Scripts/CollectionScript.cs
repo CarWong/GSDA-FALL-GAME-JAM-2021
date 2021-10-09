@@ -101,6 +101,7 @@ public class CollectionScript : MonoBehaviour
         {
             canpickup = true;
         }
+
     }
     public void OnCollisionExit(Collision collision)
     {

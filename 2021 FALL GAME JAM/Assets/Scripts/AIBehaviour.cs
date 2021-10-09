@@ -5,16 +5,27 @@ using UnityEngine;
 public class AIBehaviour : MonoBehaviour
 {
     public GameObject target;
+    public GameObject player;
     private Vector3 _movementVector = new Vector3(1, 0, 1);
-    private float _maxVelocity = 2.0f;
+    private float _maxVelocity = 8.0f;
     private float _desiredVelocity;
 
     private float slowingRadius = 2.0f;
 
+    private bool canpickup = false;
+    private bool hasitem = false;
+
+    private bool playerCollide = false;
+
+    private Vector3 handsOffset;
+
+    private int randValue;
+    private bool inAir = false;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        handsOffset = new Vector3(transform.localScale.x, 0, transform.localScale.y);
     }
 
     // Update is called once per frame
@@ -22,7 +33,22 @@ public class AIBehaviour : MonoBehaviour
     {
         if (target != null)
         {
-            SeekBehaviour();
+            Collect();
+            if (!hasitem)
+            {
+                SeekBehaviour();
+
+                
+            }
+            else
+            {
+                FleeBehaviour();
+                randValue = Random.Range(0, 20);
+                if (randValue == 5 && !inAir)
+                {
+                    Jump();
+                }
+            }
             _movementVector = _movementVector * _desiredVelocity * Time.deltaTime;
 
 
@@ -32,6 +58,27 @@ public class AIBehaviour : MonoBehaviour
             transform.position += _movementVector;
         }
     }
+    void Collect()
+    {
+        if (canpickup)
+        {
+            target.GetComponent<Rigidbody>().isKinematic = true;
+            target.transform.position = transform.position + handsOffset;
+            target.transform.parent = transform;
+            hasitem = true;
+        }
+        if (playerCollide)
+        {
+            hasitem = false;
+            target.GetComponent<Rigidbody>().isKinematic = false;
+            target.transform.parent = null;
+        }
+    }
+    void Jump()
+    {
+        transform.GetComponent<Rigidbody>().AddForce(Vector3.up * 0.5f, ForceMode.Impulse);
+        inAir = true;
+    }
     void SeekBehaviour()
     {
         float distance = (target.transform.position - transform.position).magnitude;
@@ -40,5 +87,38 @@ public class AIBehaviour : MonoBehaviour
         _desiredVelocity = _desiredVelocity * _maxVelocity;
 
         _movementVector = (target.transform.position - transform.position).normalized;
+    }
+    private void FleeBehaviour()
+    {
+        // TODO: update movementvector each frame using this function to achieve desired behaviour
+        float distance = (player.transform.position - transform.position).magnitude;
+        //Debug.Log(distance);
+        _desiredVelocity = (player.transform.position - transform.position).normalized.magnitude;
+
+        //quicker the closer we are to the target
+        _desiredVelocity = _desiredVelocity * _maxVelocity * (slowingRadius / distance);
+
+        _desiredVelocity *= -1; //flip direction
+
+        _movementVector = (player.transform.position - transform.position).normalized;
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        inAir = false;
+        if (collision.gameObject.CompareTag("Collection"))
+        {
+            canpickup = true;
+        }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            playerCollide = true;
+        }
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        playerCollide = false;
+        canpickup = false;
     }
 }

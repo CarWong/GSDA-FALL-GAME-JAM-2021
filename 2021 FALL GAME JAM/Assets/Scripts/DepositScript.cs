@@ -23,4 +23,5 @@ public class DepositScript : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
+    
 }
