@@ -83,7 +83,7 @@ public class CollectionScript : MonoBehaviour
             
             
         }
-        if (Input.GetKeyDown(KeyCode.E) && hasitem)
+        if (Input.GetKeyDown(KeyCode.Q) && hasitem)
         {
             hasitem = false;
             target.GetComponent<Rigidbody>().isKinematic = false;
