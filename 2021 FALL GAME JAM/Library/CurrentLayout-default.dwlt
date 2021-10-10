@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Scene
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -49,9 +49,13 @@ MonoBehaviour:
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 141
 =======
   controlID: 64
+>>>>>>> goodidk
+=======
+  controlID: 17
 >>>>>>> goodidk
 --- !u!114 &3
 MonoBehaviour:
@@ -158,8 +162,12 @@ MonoBehaviour:
 =======
     width: 1536
     height: 781
+<<<<<<< HEAD
 >>>>>>> goodidk
   m_MinSize: {x: 875, y: 542}
+=======
+  m_MinSize: {x: 875, y: 300}
+>>>>>>> goodidk
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -236,9 +244,13 @@ MonoBehaviour:
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 78
 =======
   controlID: 65
+>>>>>>> goodidk
+=======
+  controlID: 119
 >>>>>>> goodidk
 --- !u!114 &10
 MonoBehaviour:
@@ -265,9 +277,13 @@ MonoBehaviour:
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 79
 =======
   controlID: 66
+>>>>>>> goodidk
+=======
+  controlID: 120
 >>>>>>> goodidk
 --- !u!114 &11
 MonoBehaviour:
@@ -360,13 +376,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Meshes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Meshes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Fazilla\Downloads\GameJam2021\GSDA-FALL-GAME-JAM-2021\2021
     FALL GAME JAM
@@ -380,9 +396,15 @@ MonoBehaviour:
     m_ExpandedIDs: 000000009e3d0000a63d0000b23d0000d63d0000ea3d00006c40000000ca9a3b
 =======
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: 8c3c0000
     m_LastClickedID: 15500
     m_ExpandedIDs: 000000007a3c0000
+>>>>>>> goodidk
+=======
+    m_SelectedIDs: dc3d0000
+    m_LastClickedID: 15836
+    m_ExpandedIDs: 00000000d03d0000
 >>>>>>> goodidk
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -412,9 +434,13 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000009e3d0000
 =======
     m_ExpandedIDs: 000000007a3c0000
+>>>>>>> goodidk
+=======
+    m_ExpandedIDs: 00000000d03d0000
 >>>>>>> goodidk
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -442,8 +468,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c6230000000000009c460000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300009c460000aa10000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -459,7 +485,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 3}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -536,6 +562,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
 <<<<<<< HEAD
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 46}
       m_SelectedIDs: 2e440000
       m_LastClickedID: 0
@@ -545,6 +572,12 @@ MonoBehaviour:
       m_SelectedIDs: da450000
       m_LastClickedID: 17882
       m_ExpandedIDs: 34eaffff3eeeffff82eeffff2eefffffe2efffffbef2ffff0af5ffffb0f5ffff40f6ffff4af8ffff7efaffff58fbffff543d0000ec400000d24100002c420000
+>>>>>>> goodidk
+=======
+      scrollPos: {x: 0, y: 240}
+      m_SelectedIDs: cef8ffff
+      m_LastClickedID: -1842
+      m_ExpandedIDs: 4afbffff
 >>>>>>> goodidk
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -606,6 +639,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -174.15683, y: -11.5498905, z: -378.06616}
     speed: 2
     m_Value: {x: -174.15683, y: -11.5498905, z: -378.06616}
@@ -613,6 +647,11 @@ MonoBehaviour:
     m_Target: {x: 320.43216, y: -790.5205, z: 1348.1812}
     speed: 2
     m_Value: {x: 320.43216, y: -790.5205, z: 1348.1812}
+>>>>>>> goodidk
+=======
+    m_Target: {x: 991.5967, y: -1020.75867, z: 759.75256}
+    speed: 2
+    m_Value: {x: 991.5967, y: -1020.75867, z: 759.75256}
 >>>>>>> goodidk
   m_RenderMode: 0
   m_CameraMode:
@@ -661,6 +700,7 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 0.017601041, y: -0.9545163, z: 0.05796643, w: 0.2923518}
     speed: 2
     m_Value: {x: 0.018037185, y: -0.95431334, z: 0.059391044, w: 0.2922899}
@@ -669,10 +709,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.25401554, y: -0.10219788, z: 0.02700205, w: -0.9614066}
 >>>>>>> goodidk
-  m_Size:
-    m_Target: 838.88324
+=======
+    m_Target: {x: -0.2987052, y: -0.3772179, z: 0.12996998, w: -0.8669478}
     speed: 2
-    m_Value: 802.7591
+    m_Value: {x: -0.29850858, y: -0.37851623, z: 0.13041732, w: -0.86637723}
+>>>>>>> goodidk
+  m_Size:
+    m_Target: 856.807
+    speed: 2
+    m_Value: 856.807
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -743,10 +788,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -409.5
     m_HBaseRangeMax: 409.5
     m_VBaseRangeMin: -161
     m_VBaseRangeMax: 161
+=======
+    m_HBaseRangeMin: -460.5
+    m_HBaseRangeMax: 460.5
+    m_VBaseRangeMin: -210.5
+    m_VBaseRangeMax: 210.5
+>>>>>>> goodidk
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -763,17 +815,26 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
+<<<<<<< HEAD
       y: 21
       width: 819
       height: 322
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 409.5, y: 161}
+=======
+      y: 0
+      width: 921
+      height: 421
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 460.5, y: 210.5}
+>>>>>>> goodidk
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -409.5
       y: -161
       width: 819
@@ -781,6 +842,15 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 819, y: 343}
+=======
+      x: -460.5
+      y: -210.5
+      width: 921
+      height: 421
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 921, y: 421}
+>>>>>>> goodidk
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
