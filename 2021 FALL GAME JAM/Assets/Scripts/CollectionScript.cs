@@ -17,6 +17,7 @@ public class CollectionScript : MonoBehaviour
 
     private bool canpickup = false;
     private bool hasitem = false;
+    private bool enemyCollide = false;
 
     private Vector3 handsOffset;
 
@@ -100,7 +101,7 @@ public class CollectionScript : MonoBehaviour
             
             
         }
-        if (hasitem)
+        if (hasitem && !enemyCollide)
         {
             target.GetComponent<Rigidbody>().isKinematic = true;
             target.transform.position = transform.position + handsOffset;
@@ -124,12 +125,14 @@ public class CollectionScript : MonoBehaviour
         if (collision.transform.CompareTag("Enemy"))
         {
             collision.transform.GetComponent<AIBehaviour>().setItem(false);
+            enemyCollide = true;
         }
 
     }
     public void OnCollisionExit(Collision collision)
     {
         canpickup = false;
+        enemyCollide = false;
     }
 
     
