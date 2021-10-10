@@ -15,11 +15,19 @@ D:/source/repos/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 59022
 Successfully changed project path to: D:/source/repos/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
 D:/source/repos/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 24.53 ms, found 0 plugins.
+=======
+49478
+Successfully changed project path to: D:/source/repos/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
+D:/source/repos/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.62 ms, found 0 plugins.
+>>>>>>> goodidk
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path D:/unity/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,6 +43,7 @@ Initialize mono
 Mono path[0] = 'D:/unity/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/unity/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -48,11 +57,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (878ms)
 		BeginReloadAssembly (47ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.043421 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 17.880 seconds
+Domain Reload Profiling:
+	ReloadAssembly (17880ms)
+		BeginReloadAssembly (2315ms)
+>>>>>>> goodidk
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (401ms)
 			LoadAssemblies (45ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -60,19 +85,36 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (30ms)
 			SetupLoadedEditorAssemblies (144ms)
+=======
+		EndReloadAssembly (1145ms)
+			LoadAssemblies (2315ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (442ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (345ms)
+>>>>>>> goodidk
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (25ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (25ms)
 				BeforeProcessingInitializeOnLoad (15ms)
 				ProcessInitializeOnLoadAttributes (73ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
+=======
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+>>>>>>> goodidk
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.001497 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
@@ -340,3 +382,9 @@ Start importing Assets/Scripts/TimerScript.cs using Guid(c2c33deaa60e9c848976624
   Import took 0.004084 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+Registered in 0.037976 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000029B6CF59020 doesn't match image D:\source\repos\GSDA-FALL-GAME-JAM-2021\2021 FALL GAME JAM\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+>>>>>>> goodidk
