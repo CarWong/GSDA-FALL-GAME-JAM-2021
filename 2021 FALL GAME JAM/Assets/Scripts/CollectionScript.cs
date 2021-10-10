@@ -37,7 +37,10 @@ public class CollectionScript : MonoBehaviour
         Collect();
     }
 
-    
+    public bool isItemEquipped()
+    {
+        return hasitem;
+    }
     void movementUpdate()
     {
         horizontal = 0;
@@ -100,6 +103,10 @@ public class CollectionScript : MonoBehaviour
         if (collision.transform.CompareTag("Collection"))
         {
             canpickup = true;
+        }
+        if (collision.transform.CompareTag("Enemy"))
+        {
+            collision.transform.GetComponent<AIBehaviour>().setItem(false);
         }
 
     }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DepositScript : MonoBehaviour
 {
+    public GameObject player;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +22,7 @@ public class DepositScript : MonoBehaviour
         if (other.gameObject.tag == "Car")
         {
             Destroy(this.gameObject);
+            player.GetComponent<WinCondition>().inCar = true;
         }
     }
     

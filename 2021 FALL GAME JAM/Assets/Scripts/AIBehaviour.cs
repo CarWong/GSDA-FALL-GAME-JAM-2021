@@ -7,7 +7,7 @@ public class AIBehaviour : MonoBehaviour
     public GameObject target;
     public GameObject player;
     private Vector3 _movementVector = new Vector3(1, 0, 1);
-    private float _maxVelocity = 8.0f;
+    private float _maxVelocity = 5.0f;
     private float _desiredVelocity;
 
     private float slowingRadius = 2.0f;
@@ -19,9 +19,7 @@ public class AIBehaviour : MonoBehaviour
 
     private Vector3 handsOffset;
 
-    private int randValue;
-    private bool inAir = false;
-
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -34,20 +32,14 @@ public class AIBehaviour : MonoBehaviour
         if (target != null)
         {
             Collect();
-            if (!hasitem)
+            if (!hasitem || player.transform.GetComponent<CollectionScript>().isItemEquipped())
             {
                 SeekBehaviour();
-
-                
             }
             else
             {
                 FleeBehaviour();
-                randValue = Random.Range(0, 20);
-                if (randValue == 5 && !inAir)
-                {
-                    Jump();
-                }
+                
             }
             _movementVector = _movementVector * _desiredVelocity * Time.deltaTime;
 
@@ -72,12 +64,18 @@ public class AIBehaviour : MonoBehaviour
             hasitem = false;
             target.GetComponent<Rigidbody>().isKinematic = false;
             target.transform.parent = null;
+            //Freeze();
         }
+    }
+    public void setItem(bool state)
+    {
+        hasitem = state;
+        canpickup = state;
     }
     void Jump()
     {
         transform.GetComponent<Rigidbody>().AddForce(Vector3.up * 0.5f, ForceMode.Impulse);
-        inAir = true;
+        
     }
     void SeekBehaviour()
     {
@@ -106,7 +104,7 @@ public class AIBehaviour : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        inAir = false;
+        
         if (collision.gameObject.CompareTag("Collection"))
         {
             canpickup = true;
