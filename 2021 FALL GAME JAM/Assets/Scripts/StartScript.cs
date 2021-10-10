@@ -24,7 +24,7 @@ public class StartScript : MonoBehaviour
     }
     public void exitGame()
     {
-        startMenu.enabled = false;
+        //startMenu.enabled = false;
         Application.Quit();
     }
 }

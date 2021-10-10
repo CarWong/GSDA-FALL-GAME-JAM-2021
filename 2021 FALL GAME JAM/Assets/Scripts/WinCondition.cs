@@ -18,7 +18,8 @@ public class WinCondition : MonoBehaviour
         if (inCar)
         {
             //you won wow!!
-            SceneManager.LoadScene("End");
+            SceneManager.LoadScene("EndScene");
+            Debug.Log("hit");
         }
     }
 }

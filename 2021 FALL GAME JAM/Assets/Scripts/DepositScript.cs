@@ -21,8 +21,9 @@ public class DepositScript : MonoBehaviour
     {
         if (other.gameObject.tag == "Car")
         {
-            Destroy(this.gameObject);
             player.GetComponent<WinCondition>().inCar = true;
+            Destroy(this.gameObject);
+            
         }
     }
     
