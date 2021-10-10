@@ -1,16 +1,59 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+<<<<<<< HEAD
+OS: 'Windows 10 Home; OS build 19041.1237; Version 2004; 64bit' Language: 'en' Physical Memory: 6020 MB
+=======
 OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'en' Physical Memory: 8112 MB
+>>>>>>> goodidk
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\unity\2020.3.18f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
+C:/Users/Fazilla/Downloads/GameJam2021/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62676
+Successfully changed project path to: C:/Users/Fazilla/Downloads/GameJam2021/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
+C:/Users/Fazilla/Downloads/GameJam2021/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 46.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Fazilla/Downloads/GameJam2021/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x15d8)
+    Vendor:   
+    VRAM:     3010 MB
+    Driver:   27.20.11028.10001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005256 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.280 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4280ms)
+		BeginReloadAssembly (86ms)
+=======
 D:/source/repos/GSDA-FALL-GAME-JAM-2021/2021 FALL GAME JAM
 -logFile
 Logs/AssetImportWorker0.log
@@ -46,12 +89,35 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.905 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
+	ReloadAssembly (930ms)
+		BeginReloadAssembly (47ms)
+>>>>>>> goodidk
+=======
 	ReloadAssembly (905ms)
 		BeginReloadAssembly (52ms)
+>>>>>>> goodidk
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1291ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (491ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+=======
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (422ms)
 			LoadAssemblies (51ms)
@@ -63,17 +129,41 @@ Domain Reload Profiling:
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
+				RefreshPlugins (26ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+>>>>>>> goodidk
+=======
 				RefreshPlugins (27ms)
 				BeforeProcessingInitializeOnLoad (15ms)
 				ProcessInitializeOnLoadAttributes (78ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
+>>>>>>> goodidk
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
+<<<<<<< HEAD
+Registered in 0.007041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.203 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2205ms)
+		BeginReloadAssembly (429ms)
+=======
+Registered in 0.001446 seconds.
+=======
 Registered in 0.001537 seconds.
+>>>>>>> goodidk
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
@@ -81,15 +171,45 @@ Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.720 seconds
 Domain Reload Profiling:
+<<<<<<< HEAD
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (137ms)
+>>>>>>> goodidk
+=======
 	ReloadAssembly (720ms)
 		BeginReloadAssembly (146ms)
+>>>>>>> goodidk
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (15ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
+<<<<<<< HEAD
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (1585ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (481ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (143ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (20ms)
+=======
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (502ms)
+			LoadAssemblies (39ms)
+=======
 			CreateAndSetChildDomain (24ms)
 		EndReloadAssembly (519ms)
 			LoadAssemblies (41ms)
+>>>>>>> goodidk
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (157ms)
 			ReleaseScriptCaches (0ms)
@@ -103,21 +223,40 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (85ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (2ms)
+>>>>>>> goodidk
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
+<<<<<<< HEAD
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.3 MB.
+System memory in use after: 38.3 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 772.
+Total: 12.307700 ms (FindLiveObjects: 0.164200 ms CreateObjectMapping: 0.023200 ms MarkObjects: 11.983300 ms  DeleteObjects: 0.134400 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+=======
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
 Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+>>>>>>> goodidk
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 335 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 38.2 MB.
 System memory in use after: 38.2 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 776.
-Total: 1.984900 ms (FindLiveObjects: 0.063300 ms CreateObjectMapping: 0.011900 ms MarkObjects: 1.848700 ms  DeleteObjects: 0.060000 ms)
+<<<<<<< HEAD
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 775.
+Total: 2.171200 ms (FindLiveObjects: 0.070400 ms CreateObjectMapping: 0.013700 ms MarkObjects: 2.028200 ms  DeleteObjects: 0.057900 ms)
+>>>>>>> goodidk
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,6 +271,1724 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+  path: Assets/Texs
+  artifactKey: Guid(ed3c2e507d7f81f4892786213fc9c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texs using Guid(ed3c2e507d7f81f4892786213fc9c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd345146d9e2175ac22c4dab50ff046') in 0.016899 seconds 
+  Import took 0.020203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.054404 seconds.
+  path: Assets/Texs/pbr_textures
+  artifactKey: Guid(a438d8e279e8e1e4a8e15c1525bbd079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texs/pbr_textures using Guid(a438d8e279e8e1e4a8e15c1525bbd079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62db92e42fd9e2599a259478d932cf14') in 0.008221 seconds 
+  Import took 0.010676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.477673 seconds.
+  path: Assets/Texs/pbr_textures/textures
+  artifactKey: Guid(9717a7b585f8f584b9aac98e82eea5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texs/pbr_textures/textures using Guid(9717a7b585f8f584b9aac98e82eea5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d8c62e8339856107e80e1cdf717680') in 0.007994 seconds 
+  Import took 0.009703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.086476 seconds.
+  path: Assets/Texs/pbr_textures/materials
+  artifactKey: Guid(5232d546c843e4c4f92408f3b0f025b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Texs/pbr_textures/materials using Guid(5232d546c843e4c4f92408f3b0f025b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1351f924b8832f0c4d52334ae8ac3926') in 0.014701 seconds 
+  Import took 0.016230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.384291 seconds.
+  path: Assets/Materials/But.mat
+  artifactKey: Guid(9269e8c1da99d4d42a607ffcbed2f0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/But.mat using Guid(9269e8c1da99d4d42a607ffcbed2f0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd365eb8d06f200ea98398f05356db13b') in 0.244200 seconds 
+  Import took 0.246077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Materials/Title Screen.mat
+  artifactKey: Guid(ab52b19d97263474aac9d0729ea09c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Title Screen.mat using Guid(ab52b19d97263474aac9d0729ea09c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a75a55160664f39a530b32bb156f13') in 0.037347 seconds 
+  Import took 0.039071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.665780 seconds.
+  path: Assets/pbr_textures
+  artifactKey: Guid(ef5150d852108514f805ea41e556f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures using Guid(ef5150d852108514f805ea41e556f595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187c34d02245f9cb2699edf8d66616a9') in 0.007446 seconds 
+  Import took 0.009354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.833717 seconds.
+  path: Assets/pbr_textures/textures
+  artifactKey: Guid(2b2a8fda1ec1f7d4d80ecb74325507cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/textures using Guid(2b2a8fda1ec1f7d4d80ecb74325507cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65794bb20523eae928c5bd46636668a') in 0.006281 seconds 
+  Import took 0.008065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069929 seconds.
+  path: Assets/pbr_textures/textures/albedo.psd
+  artifactKey: Guid(b96feb90cf7cef34cb81b61b2cdd1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/textures/albedo.psd using Guid(b96feb90cf7cef34cb81b61b2cdd1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f63e5e2eb15eea83522e186088abb1') in 0.050913 seconds 
+  Import took 0.052500 seconds .
+=======
+  path: Assets/Scenes/Controls.unity
+  artifactKey: Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Controls.unity using Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fa82b533b66d227130dec7ba5b7674') in 0.015529 seconds 
+  Import took 0.016396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.980396 seconds.
+  path: Assets/Scripts/ControlScript.cs
+  artifactKey: Guid(4cafe4e8fa870a543967611d739005d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlScript.cs using Guid(4cafe4e8fa870a543967611d739005d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64b076785dd37ebafc523effe1bdd0da') in 0.030294 seconds 
+  Import took 0.031332 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001371 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.673 seconds
+Domain Reload Profiling:
+	ReloadAssembly (673ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.1 MB.
+System memory in use after: 38.1 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 2.045300 ms (FindLiveObjects: 0.070700 ms CreateObjectMapping: 0.018200 ms MarkObjects: 1.911800 ms  DeleteObjects: 0.043700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002279 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.669 seconds
+Domain Reload Profiling:
+	ReloadAssembly (670ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (46ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.1 MB.
+System memory in use after: 38.1 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 1.909400 ms (FindLiveObjects: 0.058700 ms CreateObjectMapping: 0.011000 ms MarkObjects: 1.795000 ms  DeleteObjects: 0.044000 ms)
+>>>>>>> goodidk
+
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
+  Time since last request: 0.000229 seconds.
+  path: Assets/pbr_textures/textures/height.psd
+  artifactKey: Guid(9a50f38d2c090e44aa7418215ef8db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/textures/height.psd using Guid(9a50f38d2c090e44aa7418215ef8db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a226928f5a813c52495efb2310b3a035') in 0.017718 seconds 
+  Import took 0.019322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/pbr_textures/textures/ao.psd
+  artifactKey: Guid(7522a745ce0358643b7385083b5b3dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/textures/ao.psd using Guid(7522a745ce0358643b7385083b5b3dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c190787d03529b2a1d485169e0d71e42') in 0.012515 seconds 
+  Import took 0.013997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/pbr_textures/textures/metallic.psd
+  artifactKey: Guid(01b805cb6299c094a817824795c0b479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/textures/metallic.psd using Guid(01b805cb6299c094a817824795c0b479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2569e6321c747198173cc3690a24f9f9') in 0.038538 seconds 
+  Import took 0.040778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/pbr_textures/textures/normal.psd
+  artifactKey: Guid(cf6e5b0bb3cdff240a3ad2785ae037f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/textures/normal.psd using Guid(cf6e5b0bb3cdff240a3ad2785ae037f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614929d0f1c40733d32055f7ea0da49a') in 0.074652 seconds 
+  Import took 0.076593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.210282 seconds.
+  path: Assets/pbr_textures/materials
+  artifactKey: Guid(4d1dda959f2a5544da8030548e8c5a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/materials using Guid(4d1dda959f2a5544da8030548e8c5a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e81eeb6159e5c682de67b12eaaba28f') in 0.008828 seconds 
+  Import took 0.010365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078843 seconds.
+  path: Assets/pbr_textures/materials/pbr_material.mat
+  artifactKey: Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/pbr_textures/materials/pbr_material.mat using Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eab329c32ea3d0946160ce627eda429') in 0.457678 seconds 
+  Import took 0.460817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.136548 seconds.
+  path: Assets/Fonts/Broken Home Regular.otf
+  artifactKey: Guid(ba532e413c2d83c4dae12c9216c2d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Broken Home Regular.otf using Guid(ba532e413c2d83c4dae12c9216c2d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c2b2140895f3fc4c11d2e581c04d6a') in 0.063591 seconds 
+  Import took 0.079244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Shelf/Materials/shelf.mat
+  artifactKey: Guid(1f3b093a4172fd14c8488bc1ca135651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/Materials/shelf.mat using Guid(1f3b093a4172fd14c8488bc1ca135651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033bce52a57450021b845658f9b58fab') in 0.058732 seconds 
+  Import took 0.060427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Fonts/Broken Home Regular.otf
+  artifactKey: Guid(ba532e413c2d83c4dae12c9216c2d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Broken Home Regular.otf using Guid(ba532e413c2d83c4dae12c9216c2d76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c2b2140895f3fc4c11d2e581c04d6a') in 0.023565 seconds 
+  Import took 0.025450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000431 seconds.
+  path: Assets/Shelf/Materials/shelf.mat
+  artifactKey: Guid(1f3b093a4172fd14c8488bc1ca135651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shelf/Materials/shelf.mat using Guid(1f3b093a4172fd14c8488bc1ca135651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033bce52a57450021b845658f9b58fab') in 0.030154 seconds 
+  Import took 0.032455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1007.951610 seconds.
+  path: Assets/Images/title.png
+  artifactKey: Guid(2d1af17ae20db2a4cac3449afa76bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/title.png using Guid(2d1af17ae20db2a4cac3449afa76bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a3802123b591d1e3384e1c5b6fe298') in 0.094564 seconds 
+  Import took 0.096220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001886 seconds.
+  path: Assets/Images/title.png
+  artifactKey: Guid(2d1af17ae20db2a4cac3449afa76bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/title.png using Guid(2d1af17ae20db2a4cac3449afa76bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a3802123b591d1e3384e1c5b6fe298') in 0.026732 seconds 
+  Import took 0.029208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.505034 seconds.
+  path: Assets/Materials/Floor.mat
+  artifactKey: Guid(2f6b38623d3276d4487515cff76e5d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor.mat using Guid(2f6b38623d3276d4487515cff76e5d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcead242328b587bf74f9b7cd44e57a6') in 0.046697 seconds 
+  Import took 0.048377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.966871 seconds.
+  path: Assets/Pavement textures pack
+  artifactKey: Guid(1a9d4fe7ffe0f1e44875f81e46821426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack using Guid(1a9d4fe7ffe0f1e44875f81e46821426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d15d327602009ffe5d62bc45d1755b6') in 0.010317 seconds 
+  Import took 0.011640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.015791 seconds.
+  path: Assets/Pavement textures pack/pavement 01
+  artifactKey: Guid(e872bfa8916fc844e91c1187a13d6722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 01 using Guid(e872bfa8916fc844e91c1187a13d6722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431d3b2a2784d0055140b8492561039e') in 0.012636 seconds 
+  Import took 0.014213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072855 seconds.
+  path: Assets/Pavement textures pack/pavement 01/diffuse.tga
+  artifactKey: Guid(dedb84fe0b9b97b40a9a905af06c8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 01/diffuse.tga using Guid(dedb84fe0b9b97b40a9a905af06c8962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c93ed50acf0ca77a621058604a213be') in 0.023641 seconds 
+  Import took 0.025069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Pavement textures pack/pavement 01/pavement pattern 01.mat
+  artifactKey: Guid(6641b0d643f3f3641a48f1a476baf386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 01/pavement pattern 01.mat using Guid(6641b0d643f3f3641a48f1a476baf386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6c4ed587f3318f3c5c43bdf049b166') in 0.247879 seconds 
+  Import took 0.249606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Pavement textures pack/pavement 01/normal.tga
+  artifactKey: Guid(cd4aae3f35de44542b5692405c3a551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 01/normal.tga using Guid(cd4aae3f35de44542b5692405c3a551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c47b517435d62b7495179fe3aaf94b14') in 0.026051 seconds 
+  Import took 0.027752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Pavement textures pack/pavement 01/preview.jpg
+  artifactKey: Guid(0e9d542dd3280aa48b239f99ca93afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 01/preview.jpg using Guid(0e9d542dd3280aa48b239f99ca93afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e40d5db85e07e40ecdf54ab7d0d89c') in 0.037693 seconds 
+  Import took 0.039797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002928 seconds.
+  path: Assets/Pavement textures pack/pavement 01/preview.jpg
+  artifactKey: Guid(0e9d542dd3280aa48b239f99ca93afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 01/preview.jpg using Guid(0e9d542dd3280aa48b239f99ca93afea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e40d5db85e07e40ecdf54ab7d0d89c') in 0.030975 seconds 
+  Import took 0.033210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.472398 seconds.
+  path: Assets/Materials/pbr_textures/materials/pbr_material.mat
+  artifactKey: Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pbr_textures/materials/pbr_material.mat using Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80626afd7995945ae48565dadbc2a542') in 0.066110 seconds 
+  Import took 0.068498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.388709 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 02
+  artifactKey: Guid(69a143766db71be419d58cf3e5e14232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 02 using Guid(69a143766db71be419d58cf3e5e14232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab04c7665508e7b1a729bc10951473b2') in 0.012498 seconds 
+  Import took 0.013895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043805 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 02/diffuse.tga
+  artifactKey: Guid(0157449bf9998b64ebeabd9642eed0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 02/diffuse.tga using Guid(0157449bf9998b64ebeabd9642eed0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7627de0c49803c0d2779d0578967ab26') in 0.020776 seconds 
+  Import took 0.022311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 02/pavement pattern 02.mat
+  artifactKey: Guid(78974d2f85a59fc499d154e567c11d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 02/pavement pattern 02.mat using Guid(78974d2f85a59fc499d154e567c11d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef23e7e16aec00fff6c09109f005dee8') in 0.048738 seconds 
+  Import took 0.050853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 02/normal.tga
+  artifactKey: Guid(7adff7a44cc948140a7417a757164cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 02/normal.tga using Guid(7adff7a44cc948140a7417a757164cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4969b3e3180c32472f1bd2c5c6bf7785') in 0.026866 seconds 
+  Import took 0.028448 seconds .
+=======
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 1.984900 ms (FindLiveObjects: 0.063300 ms CreateObjectMapping: 0.011900 ms MarkObjects: 1.848700 ms  DeleteObjects: 0.060000 ms)
+>>>>>>> goodidk
+
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
+  Time since last request: 0.000271 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 02/preview.jpg
+  artifactKey: Guid(c951ff472dd3af94aa9b9a65ac031506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 02/preview.jpg using Guid(c951ff472dd3af94aa9b9a65ac031506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9816cb51f761a68ad8f44ea40b64d48') in 0.023112 seconds 
+  Import took 0.025071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 02/normal.tga
+  artifactKey: Guid(7adff7a44cc948140a7417a757164cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 02/normal.tga using Guid(7adff7a44cc948140a7417a757164cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4969b3e3180c32472f1bd2c5c6bf7785') in 0.024707 seconds 
+  Import took 0.026492 seconds .
+=======
+  Time since last request: 46.584987 seconds.
+  path: Assets/Scripts/ControlScript.cs
+  artifactKey: Guid(4cafe4e8fa870a543967611d739005d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControlScript.cs using Guid(4cafe4e8fa870a543967611d739005d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6808ec3dbc1e8706176efba881523a') in 0.004470 seconds 
+  Import took 0.005450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.153455 seconds.
+  path: Assets/Scenes/Start.unity
+  artifactKey: Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start.unity using Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20bced0cd073bef227b188a9fe35b813') in 0.008721 seconds 
+  Import took 0.009598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.141734 seconds.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7161ff978fcf1a33168fdd55f5bd0660') in 0.010666 seconds 
+  Import took 0.012019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.051975 seconds.
+  path: Assets/Scenes/ControlsScene.unity
+  artifactKey: Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ControlsScene.unity using Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a679563beaa18446037729cd23eaa1') in 0.008944 seconds 
+  Import took 0.010205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001289 seconds.
+  path: Assets/Scenes/ControlsScene.unity
+  artifactKey: Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ControlsScene.unity using Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a679563beaa18446037729cd23eaa1') in 0.002596 seconds 
+  Import took 0.003610 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (658ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (39ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (156ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (202ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.1 MB.
+System memory in use after: 38.1 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 2.143900 ms (FindLiveObjects: 0.071500 ms CreateObjectMapping: 0.012300 ms MarkObjects: 2.011400 ms  DeleteObjects: 0.047900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 76.461477 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b48b3b870db746e4b37ea5ca51c388') in 0.017148 seconds 
+  Import took 0.018529 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001404 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.675 seconds
+Domain Reload Profiling:
+	ReloadAssembly (675ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (506ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.1 MB.
+System memory in use after: 38.1 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 1.962700 ms (FindLiveObjects: 0.057200 ms CreateObjectMapping: 0.010900 ms MarkObjects: 1.852500 ms  DeleteObjects: 0.041400 ms)
+>>>>>>> goodidk
+
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
+  Time since last request: 8.315653 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 03
+  artifactKey: Guid(7ac739bedb44e7343a4ab10401707329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 03 using Guid(7ac739bedb44e7343a4ab10401707329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a87b0e4416e305c92ffc27fd0b843bc8') in 0.028400 seconds 
+  Import took 0.029878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037913 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 03/diffuse.tga
+  artifactKey: Guid(54335a0905dfa674bb1d8bc66c61b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 03/diffuse.tga using Guid(54335a0905dfa674bb1d8bc66c61b15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b761de2feffeab832124dbe9ea3ff67') in 0.018127 seconds 
+  Import took 0.019672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 03/preview.jpg
+  artifactKey: Guid(05f52d0463a57b5439469e51a7e36b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 03/preview.jpg using Guid(05f52d0463a57b5439469e51a7e36b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fca7e341001403712474553f9567ca2') in 0.027506 seconds 
+  Import took 0.029217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 03/pavement pattern 03.mat
+  artifactKey: Guid(3319a57c0b6518e4aa93bd2e3edd9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 03/pavement pattern 03.mat using Guid(3319a57c0b6518e4aa93bd2e3edd9bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b5efcaf7f91053eee301992d37bb2a') in 0.039540 seconds 
+  Import took 0.042718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 03/normal.tga
+  artifactKey: Guid(16d263937cd50bc4d92176794636b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 03/normal.tga using Guid(16d263937cd50bc4d92176794636b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6245bfaddd311ff46d84eeb12ca0d159') in 0.025800 seconds 
+  Import took 0.027393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004523 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 03/normal.tga
+  artifactKey: Guid(16d263937cd50bc4d92176794636b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 03/normal.tga using Guid(16d263937cd50bc4d92176794636b898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6245bfaddd311ff46d84eeb12ca0d159') in 0.027238 seconds 
+  Import took 0.030143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.706112 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 04
+  artifactKey: Guid(46cebc646537c5e4d898916e6996589c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 04 using Guid(46cebc646537c5e4d898916e6996589c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55b9e925a72a80754c5db8ea086aec4') in 0.047549 seconds 
+  Import took 0.051142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 04/diffuse.tga
+  artifactKey: Guid(b10fe397edbc64b46ae592d5c8e44269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 04/diffuse.tga using Guid(b10fe397edbc64b46ae592d5c8e44269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59534006ffb15164ef1a197f730fa72') in 0.030023 seconds 
+  Import took 0.032688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 04/pavement pattern 04.mat
+  artifactKey: Guid(d63b3d433375695478e497e2933eac09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 04/pavement pattern 04.mat using Guid(d63b3d433375695478e497e2933eac09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efb3cd4f7ad7edc2b8be976b73a32c4') in 0.040416 seconds 
+  Import took 0.042663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 04/normal.tga
+  artifactKey: Guid(0eb32b1979b56264d85118c821d93d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 04/normal.tga using Guid(0eb32b1979b56264d85118c821d93d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa18377e417d094424c36a76fda23dd') in 0.040557 seconds 
+  Import took 0.042402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 04/preview.jpg
+  artifactKey: Guid(6b2b468667dc4d54caa98a472795d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 04/preview.jpg using Guid(6b2b468667dc4d54caa98a472795d28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9412b0182e528a3d4de0cb6d16adc17a') in 0.024009 seconds 
+  Import took 0.026080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.468338 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 05
+  artifactKey: Guid(3d154a24195a7344aaf4ec7d1c055305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 05 using Guid(3d154a24195a7344aaf4ec7d1c055305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b64d1370bb4fe5cf4e7bf57835d55a9') in 0.027692 seconds 
+  Import took 0.029257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036239 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 05/diffuse.tga
+  artifactKey: Guid(ef0590ab2349b81469208403abb35112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 05/diffuse.tga using Guid(ef0590ab2349b81469208403abb35112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e45566bdf7157b0a859ee762c866a9b') in 0.019661 seconds 
+  Import took 0.021278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 05/specular.tga
+  artifactKey: Guid(7e885c165e9050f4380f8f29c5fdf381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 05/specular.tga using Guid(7e885c165e9050f4380f8f29c5fdf381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe58a1ee253b30f914295bccb31cb50') in 0.033915 seconds 
+  Import took 0.035322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 05/pavement pattern 05.mat
+  artifactKey: Guid(6da151ccae4b78d448a52fe387f53cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 05/pavement pattern 05.mat using Guid(6da151ccae4b78d448a52fe387f53cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a9f1c316688d4e79c26e363d7b47cd') in 0.035822 seconds 
+  Import took 0.037480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 05/normal.tga
+  artifactKey: Guid(39d3dcc278042be4c9fc30d1142a2b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 05/normal.tga using Guid(39d3dcc278042be4c9fc30d1142a2b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9cdc5e649d9d196c1fb9df6563187e') in 0.033395 seconds 
+  Import took 0.036386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 05/preview.jpg
+  artifactKey: Guid(1109efff481678349885a3b2a02bcd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 05/preview.jpg using Guid(1109efff481678349885a3b2a02bcd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9b42b29123a6f45dc9a2b4eb75e30a') in 0.021597 seconds 
+  Import took 0.023397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.310640 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 06
+  artifactKey: Guid(972bb91c58ec94d48a488ed21cdb9ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 06 using Guid(972bb91c58ec94d48a488ed21cdb9ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1cc5fa9c33c7cbded4ab37cfbc9f28') in 0.013326 seconds 
+  Import took 0.014809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071393 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 06/diffuse.tga
+  artifactKey: Guid(4e5f0468f2089df459ae2ee636f9ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 06/diffuse.tga using Guid(4e5f0468f2089df459ae2ee636f9ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08a20b1bced04e57d71230f262b8ea6') in 0.030993 seconds 
+  Import took 0.032780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 06/normal.tga
+  artifactKey: Guid(8b5d59ee89c3b324c9252dd6a886957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 06/normal.tga using Guid(8b5d59ee89c3b324c9252dd6a886957d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f23b4198e7ffbb66ecbbbf13dbd599c') in 0.025295 seconds 
+  Import took 0.027033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 06/preview.jpg
+  artifactKey: Guid(32a87343538c2704aa993913e7dce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 06/preview.jpg using Guid(32a87343538c2704aa993913e7dce389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f585a66aad00c069598c86f4a7dec90b') in 0.026956 seconds 
+  Import took 0.028945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 06/pavement pattern 06.mat
+  artifactKey: Guid(c44ee7308fa9483489d2b5ed1a88ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 06/pavement pattern 06.mat using Guid(c44ee7308fa9483489d2b5ed1a88ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae55bfb7afd7f56219f83eeb12440d0') in 0.037707 seconds 
+  Import took 0.039905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002790 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 06/pavement pattern 06.mat
+  artifactKey: Guid(c44ee7308fa9483489d2b5ed1a88ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 06/pavement pattern 06.mat using Guid(c44ee7308fa9483489d2b5ed1a88ba0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae55bfb7afd7f56219f83eeb12440d0') in 0.038949 seconds 
+  Import took 0.040932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.958261 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 07
+  artifactKey: Guid(0440324d3f28fb544a4d7386ad76911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 07 using Guid(0440324d3f28fb544a4d7386ad76911b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7323f4799644dbeacbf82e9c2d458926') in 0.012991 seconds 
+  Import took 0.014530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081918 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 07/diffuse.tga
+  artifactKey: Guid(5516ec27a4f82904785127735f9f90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 07/diffuse.tga using Guid(5516ec27a4f82904785127735f9f90c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdea362abe9f9c0b2f299253ecc27dc') in 0.017191 seconds 
+  Import took 0.018791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 07/normal.tga
+  artifactKey: Guid(1e7f5bbfa2c9f5a45a2ed1d63d102094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 07/normal.tga using Guid(1e7f5bbfa2c9f5a45a2ed1d63d102094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d46d55291431f2aac0b6601b3220c4') in 0.065451 seconds 
+  Import took 0.070988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 07/preview.jpg
+  artifactKey: Guid(d7649a96db901d74fbe5c9279aa52a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 07/preview.jpg using Guid(d7649a96db901d74fbe5c9279aa52a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44653b0fca67f9e66df1320707af6cd') in 0.033924 seconds 
+  Import took 0.035753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 07/pavement pattern 07.mat
+  artifactKey: Guid(5c8a4e1f248ae9f4fab83ef327ff3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 07/pavement pattern 07.mat using Guid(5c8a4e1f248ae9f4fab83ef327ff3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f14e8462edbd53a27716accf9787c6') in 0.037759 seconds 
+  Import took 0.039795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.166631 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 08
+  artifactKey: Guid(471aa8f16ec5a9f4889cb90ca821e1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 08 using Guid(471aa8f16ec5a9f4889cb90ca821e1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaaed65bdca3e863936444e31fc37d4') in 0.012838 seconds 
+  Import took 0.014283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056399 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 08/diffuse.tga
+  artifactKey: Guid(7a983a57608c4a04e974243938fa515c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 08/diffuse.tga using Guid(7a983a57608c4a04e974243938fa515c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3e0de4f60f82835ac4bb409487cd43') in 0.020431 seconds 
+  Import took 0.021962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 08/normal.tga
+  artifactKey: Guid(876cae77038db6e4da369c972bb7cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 08/normal.tga using Guid(876cae77038db6e4da369c972bb7cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af99325a97b723a2f7663b87dc40bb8f') in 0.023761 seconds 
+  Import took 0.025406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 08/preview.jpg
+  artifactKey: Guid(fdaa4cdddcca0404c89cbb4de906988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 08/preview.jpg using Guid(fdaa4cdddcca0404c89cbb4de906988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb4271e66199afeb08ab48d2242b4d4') in 0.025950 seconds 
+  Import took 0.027895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 08/normal.tga
+  artifactKey: Guid(876cae77038db6e4da369c972bb7cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 08/normal.tga using Guid(876cae77038db6e4da369c972bb7cbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af99325a97b723a2f7663b87dc40bb8f') in 0.025975 seconds 
+  Import took 0.027819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 08/pavement pattern 08.mat
+  artifactKey: Guid(0c26b4c84ab19ad458dc8f02ac1747a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 08/pavement pattern 08.mat using Guid(0c26b4c84ab19ad458dc8f02ac1747a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '149d3bd55b0edc89b860643641ab2e97') in 0.032728 seconds 
+  Import took 0.034531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.984821 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 09
+  artifactKey: Guid(5a5d124a7abf7a44b9d4b41661c7e68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 09 using Guid(5a5d124a7abf7a44b9d4b41661c7e68e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d07c2b7c726d36ae4c95008177ec350') in 0.012856 seconds 
+  Import took 0.014343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064379 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 09/diffuse.tga
+  artifactKey: Guid(3f99f15203de934439c15e9ef852aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 09/diffuse.tga using Guid(3f99f15203de934439c15e9ef852aa98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e56ad99b56a232f6c81fd771c2b60c') in 0.016169 seconds 
+  Import took 0.017767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 09/pavement pattern 90.mat
+  artifactKey: Guid(8f9382b6ee249484cbcff1dffda47574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 09/pavement pattern 90.mat using Guid(8f9382b6ee249484cbcff1dffda47574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17c821f590f26cccbbbef066787a1f9a') in 0.048961 seconds 
+  Import took 0.050650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 09/preview.jpg
+  artifactKey: Guid(bfe639d69e98192458994c66752e6528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 09/preview.jpg using Guid(bfe639d69e98192458994c66752e6528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020730d77244c1b7a75d5b93effb26ee') in 0.023484 seconds 
+  Import took 0.026329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 09/normal.tga
+  artifactKey: Guid(8ca5681e87682b64ba31e47eb5932ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 09/normal.tga using Guid(8ca5681e87682b64ba31e47eb5932ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3180b18c504ed93a5301d21f79254cae') in 0.027369 seconds 
+  Import took 0.029110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004755 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 09/normal.tga
+  artifactKey: Guid(8ca5681e87682b64ba31e47eb5932ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 09/normal.tga using Guid(8ca5681e87682b64ba31e47eb5932ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3180b18c504ed93a5301d21f79254cae') in 0.025853 seconds 
+  Import took 0.027719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.573207 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 10
+  artifactKey: Guid(2dc59280331c4f647bd6b758e91fa62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 10 using Guid(2dc59280331c4f647bd6b758e91fa62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b8de3479ac5791a18c2b7e3b2f44fe') in 0.034536 seconds 
+  Import took 0.035953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081125 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 10/diffuse.tga
+  artifactKey: Guid(6e7b046df941c9c4aa5401278f099893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 10/diffuse.tga using Guid(6e7b046df941c9c4aa5401278f099893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045880aa889a5147c7c596a0fa84e3c1') in 0.020316 seconds 
+  Import took 0.022936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 10/pavement pattern 10.mat
+  artifactKey: Guid(90cb3c645e5ce7f4b828c0fbe100151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 10/pavement pattern 10.mat using Guid(90cb3c645e5ce7f4b828c0fbe100151c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8056b533ee375fce5880b0c3610dae87') in 0.039453 seconds 
+  Import took 0.041441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 10/preview.jpg
+  artifactKey: Guid(33eac8d76f624944698ddebe069036d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 10/preview.jpg using Guid(33eac8d76f624944698ddebe069036d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13953afc77d9335f002edf1c8402cb88') in 0.029140 seconds 
+  Import took 0.030805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 10/normal.tga
+  artifactKey: Guid(34b09b736d974a24587e3cabb7141f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 10/normal.tga using Guid(34b09b736d974a24587e3cabb7141f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3182b227f1719f8fa23b2689544c26bd') in 0.023434 seconds 
+  Import took 0.026075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.419169 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 11
+  artifactKey: Guid(d5a322e6e67890a4c9929cf4cce32d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 11 using Guid(d5a322e6e67890a4c9929cf4cce32d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c3b6a0bc19cca003ce1e40079f88c9') in 0.012709 seconds 
+  Import took 0.014506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051742 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 11/diffuse.tga
+  artifactKey: Guid(442ceb64526e96844807bd8393a255fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 11/diffuse.tga using Guid(442ceb64526e96844807bd8393a255fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f4de92c275bcc1c6b2af2b4bf3b66d') in 0.017977 seconds 
+  Import took 0.019833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 11/pavement pattern 11.mat
+  artifactKey: Guid(ff712044a1677cb4faaf77165685c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 11/pavement pattern 11.mat using Guid(ff712044a1677cb4faaf77165685c5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d0975524dcd67cb099e49959ecafa0') in 0.046981 seconds 
+  Import took 0.048616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 11/preview.jpg
+  artifactKey: Guid(e6d3b73793b855649b03d7c484596f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 11/preview.jpg using Guid(e6d3b73793b855649b03d7c484596f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64265b405179061c102c18d3727d34e4') in 0.027852 seconds 
+  Import took 0.030445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 11/normal.tga
+  artifactKey: Guid(3841a2a69c0ee0841b5951a7411a70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 11/normal.tga using Guid(3841a2a69c0ee0841b5951a7411a70ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cab0affd47d19b610ff2ec4265b32c1') in 0.026615 seconds 
+  Import took 0.029427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.299227 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 12
+  artifactKey: Guid(8625d419207f0e44187cf78749877a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 12 using Guid(8625d419207f0e44187cf78749877a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1230ab904924c992761917dc6b53879e') in 0.025097 seconds 
+  Import took 0.026557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034901 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 12/diffuse.tga
+  artifactKey: Guid(3aa8ca8f822089c499a79d1bd928596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 12/diffuse.tga using Guid(3aa8ca8f822089c499a79d1bd928596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '127521a9c5b68c93f17c514e129c0ac4') in 0.019001 seconds 
+  Import took 0.020733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 12/normal.tga
+  artifactKey: Guid(f7b8da3b46a49034998a7d08f11dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 12/normal.tga using Guid(f7b8da3b46a49034998a7d08f11dc125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27300450d0e3018b041d03e0fc357e23') in 0.024633 seconds 
+  Import took 0.026066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 12/pavement pattern 12.mat
+  artifactKey: Guid(41beb21326c85d24dacf689b2b30703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 12/pavement pattern 12.mat using Guid(41beb21326c85d24dacf689b2b30703f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4534b7f5ba9ff9cff3c6b6731f7b272') in 0.036711 seconds 
+  Import took 0.038596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 12/preview.jpg
+  artifactKey: Guid(f5fce7096367fc24c84d361bce68f97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 12/preview.jpg using Guid(f5fce7096367fc24c84d361bce68f97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eef5c11821fb36bca0dad62b48da73') in 0.026635 seconds 
+  Import took 0.028633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.643988 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 13
+  artifactKey: Guid(777d887ecbdcc044f8080717aa5a44a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 13 using Guid(777d887ecbdcc044f8080717aa5a44a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9e71466335afd6ba0b0a6f65ba798e') in 0.014416 seconds 
+  Import took 0.015978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069002 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 13/diffuse.tga
+  artifactKey: Guid(c1707cfab59653249bd16676b40c3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 13/diffuse.tga using Guid(c1707cfab59653249bd16676b40c3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc27329af672ababc7013aa8252d4c74') in 0.022423 seconds 
+  Import took 0.024330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 13/pavement pattern 13.mat
+  artifactKey: Guid(35df40f761814274781e96c08282a5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 13/pavement pattern 13.mat using Guid(35df40f761814274781e96c08282a5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c39d7931539f274cc38219cc5099f81') in 0.039679 seconds 
+  Import took 0.041369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 13/normal.tga
+  artifactKey: Guid(ae87cc80c85243047b13e738dedf9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 13/normal.tga using Guid(ae87cc80c85243047b13e738dedf9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e85270fc22996c630b3c97122141bc') in 0.030514 seconds 
+  Import took 0.032603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 13/preview.jpg
+  artifactKey: Guid(3256dd6becb4be84789bb1b3638a9390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 13/preview.jpg using Guid(3256dd6becb4be84789bb1b3638a9390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f1e1ae099694523a2c2f0c54849880') in 0.023215 seconds 
+  Import took 0.025119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 13/normal.tga
+  artifactKey: Guid(ae87cc80c85243047b13e738dedf9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 13/normal.tga using Guid(ae87cc80c85243047b13e738dedf9c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e85270fc22996c630b3c97122141bc') in 0.026925 seconds 
+  Import took 0.029153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.576884 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 14
+  artifactKey: Guid(05657089ac8513643ac9cb6b0707777a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 14 using Guid(05657089ac8513643ac9cb6b0707777a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9e70b7a165f61a7a1fce579af08bf8') in 0.012444 seconds 
+  Import took 0.014224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051183 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 14/diffuse.tga
+  artifactKey: Guid(8e92112798b99f74cb1ab04da87e1e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 14/diffuse.tga using Guid(8e92112798b99f74cb1ab04da87e1e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33cb0c153d107c0f26fc60d5f370112') in 0.043576 seconds 
+  Import took 0.045203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 14/preview.jpg
+  artifactKey: Guid(d8199f0790a48254bb5746ff52ce0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 14/preview.jpg using Guid(d8199f0790a48254bb5746ff52ce0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6a8c0028546f33b7ee0edb3576cb85') in 0.027866 seconds 
+  Import took 0.029635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 14/pavement pattern 14.mat
+  artifactKey: Guid(2fcceccded679c041bbd105eab2c434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 14/pavement pattern 14.mat using Guid(2fcceccded679c041bbd105eab2c434c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c08e7f3ece0c1b7dc6439e226ae6de') in 0.038331 seconds 
+  Import took 0.041344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 14/normal.tga
+  artifactKey: Guid(f5d47122cda69884098020f316fc3b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 14/normal.tga using Guid(f5d47122cda69884098020f316fc3b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4690f6b94ac4d0c33a071ff2a1f2fb96') in 0.029575 seconds 
+  Import took 0.031162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.059550 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 15
+  artifactKey: Guid(7be5a3c49dec5b449a0bab28c0665f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 15 using Guid(7be5a3c49dec5b449a0bab28c0665f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddf899038ce5134ea9c538c67697f95') in 0.026518 seconds 
+  Import took 0.028128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071428 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 15/diffuse.tga
+  artifactKey: Guid(1de59d7ec30d5c444a8db3a8f7c09cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 15/diffuse.tga using Guid(1de59d7ec30d5c444a8db3a8f7c09cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11905a896d5db0796769941edc7a16e9') in 0.020654 seconds 
+  Import took 0.022292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 15/pavement pattern 15.mat
+  artifactKey: Guid(c9673221a0053a6438c4de0cfe772d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 15/pavement pattern 15.mat using Guid(c9673221a0053a6438c4de0cfe772d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd184289d02d0b75fe0d57541bedb82') in 0.050788 seconds 
+  Import took 0.052456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 15/normal.tga
+  artifactKey: Guid(7d3a46e7953c82c49b867742a2ad70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 15/normal.tga using Guid(7d3a46e7953c82c49b867742a2ad70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8b39bc731a022828de80191d5f614e') in 0.029030 seconds 
+  Import took 0.031024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001911 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 15/preview.jpg
+  artifactKey: Guid(f56ef9cbbcd9274409448f81b0a6c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 15/preview.jpg using Guid(f56ef9cbbcd9274409448f81b0a6c424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c8d95bf6419984aed0d3a106379b0b') in 0.026369 seconds 
+  Import took 0.028391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 15/normal.tga
+  artifactKey: Guid(7d3a46e7953c82c49b867742a2ad70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 15/normal.tga using Guid(7d3a46e7953c82c49b867742a2ad70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8b39bc731a022828de80191d5f614e') in 0.026815 seconds 
+  Import took 0.028451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.794177 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 16
+  artifactKey: Guid(038e917228d47a744bae532a810cd84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 16 using Guid(038e917228d47a744bae532a810cd84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e87db6c439a43e413e6a7ddfb06f1a') in 0.016684 seconds 
+  Import took 0.018242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061334 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 16/diffuse.tga
+  artifactKey: Guid(ff181c2a73babae4b8a4bc9c5db84216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 16/diffuse.tga using Guid(ff181c2a73babae4b8a4bc9c5db84216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e716b7c3c6300139116af7c6d47b29d') in 0.018888 seconds 
+  Import took 0.020381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 16/normal.tga
+  artifactKey: Guid(f7fe81d495da2334eb519b6e3578003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 16/normal.tga using Guid(f7fe81d495da2334eb519b6e3578003c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f68d6161e4f7b3d10e3f712f840394c') in 0.035983 seconds 
+  Import took 0.037407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 16/preview.jpg
+  artifactKey: Guid(ffadca88a1dcabf4a8a93105a4ac19d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 16/preview.jpg using Guid(ffadca88a1dcabf4a8a93105a4ac19d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7100cf060e8069d291ae79772b3f19fa') in 0.028039 seconds 
+  Import took 0.029822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 16/pavement pattern 16.mat
+  artifactKey: Guid(a7d5e4b360e60074c9e71d4e8f69864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 16/pavement pattern 16.mat using Guid(a7d5e4b360e60074c9e71d4e8f69864f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62a12c45e25231e04cbf87ce386d017') in 0.033648 seconds 
+  Import took 0.036011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.573447 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 17
+  artifactKey: Guid(342b5e1479577554288893340e0353e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 17 using Guid(342b5e1479577554288893340e0353e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dc6da0e65ea5204da9aaaae83fd58d') in 0.013035 seconds 
+  Import took 0.014645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080473 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 17/diffuse.tga
+  artifactKey: Guid(afcfa2e46413c47408d557b124777a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 17/diffuse.tga using Guid(afcfa2e46413c47408d557b124777a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd416cc765d10b1cc66d0d30f88bb2a65') in 0.045306 seconds 
+  Import took 0.047353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 17/pavement pattern 17.mat
+  artifactKey: Guid(c4ef03d4db0207e4f929d97ef39d4438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 17/pavement pattern 17.mat using Guid(c4ef03d4db0207e4f929d97ef39d4438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7051df32c279f2d6119968ddfbfd4cec') in 0.036737 seconds 
+  Import took 0.038645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 17/preview.jpg
+  artifactKey: Guid(d0b1e81c4817a664490feaea2441ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 17/preview.jpg using Guid(d0b1e81c4817a664490feaea2441ee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22210dfe5a332481122e4a65897e5127') in 0.027463 seconds 
+  Import took 0.029213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 17/normal.tga
+  artifactKey: Guid(7f4cc427ff598404a8743fd6b21fed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 17/normal.tga using Guid(7f4cc427ff598404a8743fd6b21fed3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be67176b857ca1c2297eb376a1f0b28e') in 0.025163 seconds 
+  Import took 0.026868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.435740 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 18
+  artifactKey: Guid(277166525649e8d4abdda398a074b7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 18 using Guid(277166525649e8d4abdda398a074b7e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e6308d2172aa89692337ca9a3621f4') in 0.014533 seconds 
+  Import took 0.018198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062824 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 18/diffuse.tga
+  artifactKey: Guid(b43778accccc5b643a1386628e22d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 18/diffuse.tga using Guid(b43778accccc5b643a1386628e22d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9602fd94589f8731dc95317e83be8ec6') in 0.017930 seconds 
+  Import took 0.019438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 18/pavement pattern 18.mat
+  artifactKey: Guid(1391761be4231a94ea1ceeb1443cdc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 18/pavement pattern 18.mat using Guid(1391761be4231a94ea1ceeb1443cdc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79b7329ad5a26ef55a3df1df8ab8a23') in 0.054989 seconds 
+  Import took 0.056748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 18/preview.jpg
+  artifactKey: Guid(3fe5b8d462b9e3a4da45021486f94dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 18/preview.jpg using Guid(3fe5b8d462b9e3a4da45021486f94dbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496c45d27df4e4fe13c3280978cc089a') in 0.025753 seconds 
+  Import took 0.027341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 18/normal.tga
+  artifactKey: Guid(cfbe097d6221995468b1e953181e29d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 18/normal.tga using Guid(cfbe097d6221995468b1e953181e29d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '637bb72be3d728c6d2e405fb8873fc81') in 0.025204 seconds 
+  Import took 0.027456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.491237 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 19
+  artifactKey: Guid(a10a561442e87b949a34c8d2b35b7ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 19 using Guid(a10a561442e87b949a34c8d2b35b7ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fecefaa205c5f7492133ca1cc1f6a44') in 0.012835 seconds 
+  Import took 0.014309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063169 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 19/diffuse.tga
+  artifactKey: Guid(038892053401a5b4199fd40ae06b21fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 19/diffuse.tga using Guid(038892053401a5b4199fd40ae06b21fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f038c17a018ea9514517f5fe8e334') in 0.033172 seconds 
+  Import took 0.034793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 19/preview.jpg
+  artifactKey: Guid(8e7b53ac8081b2d46bd36da76076214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 19/preview.jpg using Guid(8e7b53ac8081b2d46bd36da76076214f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482bfd8ae00f3a7037cda991b39b2402') in 0.025508 seconds 
+  Import took 0.027435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 19/pavement pattern 19.mat
+  artifactKey: Guid(113b786486a12014a922d67a00c08a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 19/pavement pattern 19.mat using Guid(113b786486a12014a922d67a00c08a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac4507201e2832cb536efb14bdae5a1') in 0.042140 seconds 
+  Import took 0.043960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 19/normal.tga
+  artifactKey: Guid(485f54008d935e34fbac75d4d956b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 19/normal.tga using Guid(485f54008d935e34fbac75d4d956b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75473b27bbba6f7a56f5ee3133a7146b') in 0.028346 seconds 
+  Import took 0.030029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001940 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 19/normal.tga
+  artifactKey: Guid(485f54008d935e34fbac75d4d956b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 19/normal.tga using Guid(485f54008d935e34fbac75d4d956b98f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75473b27bbba6f7a56f5ee3133a7146b') in 0.026285 seconds 
+  Import took 0.031050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.493096 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 20
+  artifactKey: Guid(5cec00c06af399e46a97e7eff2a49ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 20 using Guid(5cec00c06af399e46a97e7eff2a49ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8070476ebe98cd3f24d97089a1b5b29') in 0.029614 seconds 
+  Import took 0.031307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038061 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 20/diffuse.tga
+  artifactKey: Guid(76a07bcaabfcbc540827c83b89b5d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 20/diffuse.tga using Guid(76a07bcaabfcbc540827c83b89b5d443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98ef4ed2764f2cae0c454aa7f92f048') in 0.017048 seconds 
+  Import took 0.018447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 20/normal.tga
+  artifactKey: Guid(fa98c104902c6a94d9bcf97cf14c6ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 20/normal.tga using Guid(fa98c104902c6a94d9bcf97cf14c6ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45d6138bd8b8b7a7b2b485ed0723b49') in 0.032084 seconds 
+  Import took 0.033967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 20/pavement pattern 20.mat
+  artifactKey: Guid(b7ebef28311bd174ab0318791f5663aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 20/pavement pattern 20.mat using Guid(b7ebef28311bd174ab0318791f5663aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31a089ec7f880b8a6a554affe2ed76bb') in 0.037888 seconds 
+  Import took 0.039796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 20/preview.jpg
+  artifactKey: Guid(5f005dce97ae63e41b83624804dd1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 20/preview.jpg using Guid(5f005dce97ae63e41b83624804dd1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde363009a4f6c6388f1cc6a1ccebe40') in 0.019530 seconds 
+  Import took 0.022850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017275 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 20/preview.jpg
+  artifactKey: Guid(5f005dce97ae63e41b83624804dd1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 20/preview.jpg using Guid(5f005dce97ae63e41b83624804dd1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde363009a4f6c6388f1cc6a1ccebe40') in 0.021245 seconds 
+  Import took 0.023265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 679.605255 seconds.
+  path: Assets/Materials/pbr_textures/materials/pbr_material.mat
+  artifactKey: Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pbr_textures/materials/pbr_material.mat using Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4067894dd1ddcdbdb3047b70d18738') in 0.047186 seconds 
+  Import took 0.049042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.246420 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 08/pavement pattern 08.mat
+  artifactKey: Guid(0c26b4c84ab19ad458dc8f02ac1747a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 08/pavement pattern 08.mat using Guid(0c26b4c84ab19ad458dc8f02ac1747a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e5d4b6601c128bde9917b7f9cfb9e7') in 0.043226 seconds 
+  Import took 0.045035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.510389 seconds.
+  path: Assets/Materials/Pavement textures pack/pavement 07/pavement pattern 07.mat
+  artifactKey: Guid(5c8a4e1f248ae9f4fab83ef327ff3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pavement textures pack/pavement 07/pavement pattern 07.mat using Guid(5c8a4e1f248ae9f4fab83ef327ff3898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57961d5c655987ad0e35e939d9409df3') in 0.040020 seconds 
+  Import took 0.042323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 113.948179 seconds.
+  path: Assets/Pavement textures pack/pavement 01
+  artifactKey: Guid(c24e8ebf8b9749f418b92ae4106802e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 01 using Guid(c24e8ebf8b9749f418b92ae4106802e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9129b8c991ec25d76a9b6d1c901142') in 0.007069 seconds 
+  Import took 0.008986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.320304 seconds.
+  path: Assets/Pavement textures pack/pavement 02
+  artifactKey: Guid(5897e6983d4c59c4c95dd2f07c579469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 02 using Guid(5897e6983d4c59c4c95dd2f07c579469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c1cacacd18910d3d912ce0eaa699fb') in 0.026798 seconds 
+  Import took 0.028338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.582158 seconds.
+  path: Assets/Pavement textures pack/pavement 03
+  artifactKey: Guid(05c591c9d07b7bc43b69fd84de4aad75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 03 using Guid(05c591c9d07b7bc43b69fd84de4aad75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dca541f005fefcc8a774383b0ba8ca') in 0.007907 seconds 
+  Import took 0.009512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006909 seconds.
+  path: Assets/Pavement textures pack/pavement 03
+  artifactKey: Guid(05c591c9d07b7bc43b69fd84de4aad75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 03 using Guid(05c591c9d07b7bc43b69fd84de4aad75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dca541f005fefcc8a774383b0ba8ca') in 0.006207 seconds 
+  Import took 0.008261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.585926 seconds.
+  path: Assets/Pavement textures pack/pavement 04
+  artifactKey: Guid(2000d27f936592c45847baafb1e74ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 04 using Guid(2000d27f936592c45847baafb1e74ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c40a86f402facac8b7a6026a7d0f8d') in 0.012148 seconds 
+  Import took 0.014126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.313746 seconds.
+  path: Assets/Pavement textures pack/pavement 05
+  artifactKey: Guid(8df324a818c8c7d49a86e21ce99d642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 05 using Guid(8df324a818c8c7d49a86e21ce99d642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae795cc8167af748f31e4c04ccd1c69') in 0.008700 seconds 
+  Import took 0.010106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.719272 seconds.
+  path: Assets/Pavement textures pack/pavement 06
+  artifactKey: Guid(40ab820404908bf4ea3e3a43c55bbd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 06 using Guid(40ab820404908bf4ea3e3a43c55bbd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d7c1ae829a45b65ebd046fc690bc72') in 0.007630 seconds 
+  Import took 0.009366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.382613 seconds.
+  path: Assets/Pavement textures pack/pavement 07
+  artifactKey: Guid(3b6617a355a207d4eb43ae39d8f2048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 07 using Guid(3b6617a355a207d4eb43ae39d8f2048f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2a71a5e609a65f977ca53b792774c0') in 0.006798 seconds 
+  Import took 0.008673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.724537 seconds.
+  path: Assets/Pavement textures pack/pavement 08
+  artifactKey: Guid(93f2bd63dda10f0469b13f4613a9a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack/pavement 08 using Guid(93f2bd63dda10f0469b13f4613a9a612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed1f4f508c1ecf1c593f265dff7b62e') in 0.007354 seconds 
+  Import took 0.008701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.069966 seconds.
+  path: Assets/Pavement textures pack
+  artifactKey: Guid(831e4d94426cc9c4e827c31814395637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pavement textures pack using Guid(831e4d94426cc9c4e827c31814395637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ed8cba9742762b71a3cd0372f363fc') in 0.011822 seconds 
+  Import took 0.013716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.132131 seconds.
+  path: Assets/Materials/Interiorwalls.mat
+  artifactKey: Guid(2f6b38623d3276d4487515cff76e5d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Interiorwalls.mat using Guid(2f6b38623d3276d4487515cff76e5d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42265d251f5f45bf9e56e9b6d84cc785') in 0.044129 seconds 
+  Import took 0.046178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.541139 seconds.
+  path: Assets/Materials/pbr_textures/materials/indoortiling.mat
+  artifactKey: Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pbr_textures/materials/indoortiling.mat using Guid(87294f02d9437b8479f6d772f8b00a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356142b4855a29c6591abfa53e15e7e2') in 0.048691 seconds 
+  Import took 0.050742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.675634 seconds.
+  path: Assets/Materials/pbr_textures/textures/height.psd
+  artifactKey: Guid(9a50f38d2c090e44aa7418215ef8db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pbr_textures/textures/height.psd using Guid(9a50f38d2c090e44aa7418215ef8db22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d85722ab702a662214f303b8d537cb') in 0.015543 seconds 
+  Import took 0.017395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.345135 seconds.
+  path: Assets/Materials/pbr_textures/indoortilingtexts
+  artifactKey: Guid(2b2a8fda1ec1f7d4d80ecb74325507cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pbr_textures/indoortilingtexts using Guid(2b2a8fda1ec1f7d4d80ecb74325507cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0563c010121e06c44a90f46db1781e4') in 0.020466 seconds 
+  Import took 0.022142 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.143 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1144ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.7 MB.
+System memory in use after: 42.7 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 822.
+Total: 3.894400 ms (FindLiveObjects: 0.212400 ms CreateObjectMapping: 0.020400 ms MarkObjects: 3.568400 ms  DeleteObjects: 0.091100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006832 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1127ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 327 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.8 MB.
+System memory in use after: 42.8 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 822.
+Total: 2.716600 ms (FindLiveObjects: 0.104500 ms CreateObjectMapping: 0.015200 ms MarkObjects: 2.522200 ms  DeleteObjects: 0.072900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 273.626735 seconds.
+  path: Assets/Materials/Floor.mat
+  artifactKey: Guid(9f4cffd34fc89ef46a9c1d20f0ad7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor.mat using Guid(9f4cffd34fc89ef46a9c1d20f0ad7d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fd92434c0270f507da9dad40a46de8') in 0.127186 seconds 
+  Import took 0.129205 seconds .
+=======
+  Time since last request: 116.574685 seconds.
+  path: Assets/Scenes/ControlsScene.unity
+  artifactKey: Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/ControlsScene.unity using Guid(15fb2579da7b1aa48adb4df8325c3394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b27c519c3dc34434f5a9102f2267896') in 0.008135 seconds 
+  Import took 0.009104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.493715 seconds.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fbf42f8c102c3c1bf3abe9829887c0') in 0.002563 seconds 
+  Import took 0.003601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Scenes/StartScene.unity
+  artifactKey: Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartScene.unity using Guid(7142a111e172705448082e4f406adddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fbf42f8c102c3c1bf3abe9829887c0') in 0.002119 seconds 
+  Import took 0.003288 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Domain Reload Profiling:
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (58ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 330 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 38.1 MB.
+System memory in use after: 38.1 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 776.
+Total: 2.327700 ms (FindLiveObjects: 0.064700 ms CreateObjectMapping: 0.012900 ms MarkObjects: 2.195400 ms  DeleteObjects: 0.053800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 96.082604 seconds.
+  path: Assets/Materials/Controls.mat
+  artifactKey: Guid(3d9d5d00d9861364b9e9dc4fe3d52bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Controls.mat using Guid(3d9d5d00d9861364b9e9dc4fe3d52bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9ab67f2afd9e0d0af65c28068995d2') in 0.270355 seconds 
+  Import took 0.271565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Materials/Fail.mat
+  artifactKey: Guid(bc20827487e22f649b5665c4860185bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Fail.mat using Guid(bc20827487e22f649b5665c4860185bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0264e9066feda2df29d709892afc776f') in 0.052971 seconds 
+  Import took 0.054372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Materials/Controls.mat
+  artifactKey: Guid(3d9d5d00d9861364b9e9dc4fe3d52bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Controls.mat using Guid(3d9d5d00d9861364b9e9dc4fe3d52bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9ab67f2afd9e0d0af65c28068995d2') in 0.019970 seconds 
+  Import took 0.021244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.169527 seconds.
+=======
+>>>>>>> goodidk
   path: Assets/Materials/Bench.mat
   artifactKey: Guid(e53a17aad408e5141b6ab9b71bacef9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Bench.mat using Guid(e53a17aad408e5141b6ab9b71bacef9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60551f0b8ae6862de63d4eab841410f5') in 0.113019 seconds 
@@ -171,10 +2028,19 @@ Start importing Assets/Texs/box3.png using Guid(fd1a1662b49e84f408522072004e8d2c
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
+  Time since last request: 0.005072 seconds.
+  path: Assets/Prefabs/Bench.prefab
+  artifactKey: Guid(91bbb01f3c977044faece223b562ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bench.prefab using Guid(91bbb01f3c977044faece223b562ae3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32235f741f7c014d88888f00776532bf') in 0.008238 seconds 
+  Import took 0.009721 seconds .
+>>>>>>> goodidk
+=======
   Time since last request: 8.868314 seconds.
   path: Assets/Meshes/box.obj
   artifactKey: Guid(b1e8a0b0a43f00548acb7ad920499412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Meshes/box.obj using Guid(b1e8a0b0a43f00548acb7ad920499412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c031921fb9be0ac00bc91ad33f88337') in 0.165691 seconds 
   Import took 0.167003 seconds .
+>>>>>>> goodidk
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
