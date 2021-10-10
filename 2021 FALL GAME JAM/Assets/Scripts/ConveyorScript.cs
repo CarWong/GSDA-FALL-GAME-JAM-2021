@@ -25,7 +25,7 @@ public class ConveyorScript : MonoBehaviour
         // (transform.forward is a built in Vector3 
         // which is used to get the forward facing direction)
         // * Remember Vector3's can used for position AND direction AND rotation
-        direction = transform.forward;
+        direction = transform.forward*-1;
         direction = direction * speed;
 
         // Add a WORLD force to the other objects

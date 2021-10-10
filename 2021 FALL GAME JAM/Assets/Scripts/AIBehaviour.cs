@@ -109,7 +109,7 @@ public class AIBehaviour : MonoBehaviour
         {
             canpickup = true;
         }
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player")||collision.gameObject.CompareTag("Enemy"))
         {
             playerCollide = true;
         }

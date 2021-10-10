@@ -50,10 +50,12 @@ public class CollectionScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKey(KeyCode.A))
         {
             horizontal -= Time.deltaTime*moveSpeed;
+            
         }
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKey(KeyCode.D))
         {
             horizontal += Time.deltaTime * moveSpeed;
+            
         }
         if (Input.GetKeyDown(KeyCode.W) || Input.GetKey(KeyCode.W))
         {
@@ -63,7 +65,16 @@ public class CollectionScript : MonoBehaviour
         {
             forward -= Time.deltaTime * moveSpeed;
         }
-
+        if (!hasitem)
+        {
+            
+            transform.LookAt(target.transform, Vector3.up);
+        }
+        else
+        {
+            Vector3 direction = new Vector3(transform.position.x * -1, 0, transform.position.z);
+            transform.LookAt(direction, Vector3.up);
+        }
         //transform.position += new Vector3(horizontal, 0, forward);
         playerRb.position += new Vector3(horizontal, 0, forward);
         //transform.position.Set(transform.position.x + horizontal, transform.position.y, transform.position.z+forward);
@@ -88,6 +99,12 @@ public class CollectionScript : MonoBehaviour
             }
             
             
+        }
+        if (hasitem)
+        {
+            target.GetComponent<Rigidbody>().isKinematic = true;
+            target.transform.position = transform.position + handsOffset;
+            target.transform.parent = transform;
         }
         if (Input.GetKeyDown(KeyCode.Q) && hasitem)
         {
