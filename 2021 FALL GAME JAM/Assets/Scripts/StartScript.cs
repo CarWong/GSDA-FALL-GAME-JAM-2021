@@ -27,4 +27,8 @@ public class StartScript : MonoBehaviour
         //startMenu.enabled = false;
         Application.Quit();
     }
+    public void controlsGame()
+    {
+        SceneManager.LoadScene("ControlsScene");
+    }
 }
